@@ -11,3 +11,4 @@ unstructured
 langchain
 faiss-cpu
 huggingface-hub
+pdfminer.six
