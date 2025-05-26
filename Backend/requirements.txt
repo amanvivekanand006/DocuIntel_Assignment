@@ -20,3 +20,4 @@ transformers
 pillow
 pdf2image
 langchain-community
+langchain-huggingface
