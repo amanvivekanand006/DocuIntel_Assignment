@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pymongo
+motor
+python-dotenv
+pydantic
+phonenumbers
+passlib[bcrypt]
+python-jose
+unstructured
+langchain
+faiss-cpu
+huggingface-hub

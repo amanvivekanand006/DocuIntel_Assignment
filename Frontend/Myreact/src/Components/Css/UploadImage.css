@@ -1,0 +1,58 @@
+.upload-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* filter: brightness(0.8); */
+}
+
+.overlay-content {
+  position: absolute;
+  top: 38%;
+  left: 49%;
+  width: 38%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.headline {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color:#490b3d ;
+}
+
+.headline span {
+  color: #bd1e51;
+}
+
+.subtext {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #f1b814;
+}
+
+.upload-container .get-started-btn {
+  background-color: #bd1e51;
+  color: white;
+  padding: 0.9rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 220px;
+}
+
+.get-started-btn:hover {
+  background-color: #490b3d;
+}

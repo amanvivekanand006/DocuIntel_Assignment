@@ -1,0 +1,82 @@
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 3rem;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-logo .logo-text {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #bd1e51;
+}
+
+.navbar-logo .logo-text span {
+  color: #f1b814;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar-links a {
+  font-size: 1rem;
+  color: #bd1e51;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #490b3d;
+}
+
+.navbar-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn-login,
+.btn-signup {
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-login {
+  background: transparent;
+  color: #bd1e51;
+  border: 2px solid #bd1e51;
+}
+
+.btn-login:hover {
+  background: #490b3d;
+  color: white;
+}
+
+.btn-signup {
+  background-color: #bd1e51;
+  color: white;
+}
+
+.btn-signup:hover {
+  background-color: #490b3d;
+}

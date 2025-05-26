@@ -1,0 +1,103 @@
+body {
+  overflow-x: hidden; 
+}
+
+footer {
+  width: 100%; 
+  position: relative;
+  overflow: hidden;
+  /* background: linear-gradient(to top right, #1e1e2f, #2c2c3f); */
+  /* background: #6e6e6e; */
+  background: #bd1e51;
+  color: white;
+  padding: 3rem 2rem;
+  box-sizing: border-box;
+  margin-top: auto;
+  margin-left: 0;
+  margin-right: 100px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-links {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer-links a {
+  /* color: #ccc; */
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  /* color: #fff; */
+  color: #f1b814;
+}
+
+.footer-logo {
+  font-size: 2rem;
+  font-weight: bold;
+  /* color: #fff; */
+  color: #f1b814;
+}
+
+.footer-stars, .footer-blobs {
+  position: absolute;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.star {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: white;
+  border-radius: 50%;
+  animation: twinkle 3s infinite ease-in-out;
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.2; }
+}
+
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.3;
+  z-index: 0;
+}
+
+.blob1 {
+  width: 300px;
+  height: 300px;
+  /* background: ghostwhite; */
+  background: #f1b814;
+  top: -100px;
+  left: -100px;
+}
+
+.blob2 {
+  width: 300px;
+  height: 300px;
+  /* background: #1565c0; */
+  background: #490b3d;
+  bottom: -100px;
+  right: -100px;
+}
+
+.footer-bottom {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  /* color: #aaa; */
+  color: white;
+}
