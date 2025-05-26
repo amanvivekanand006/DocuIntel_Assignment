@@ -15,3 +15,6 @@ pdfminer.six
 pi-heif
 python-docx
 sentence-transformers
+unstructured_inference
+transformers
+pillow
