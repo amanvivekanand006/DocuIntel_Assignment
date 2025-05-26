@@ -1,0 +1,32 @@
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# FAISS vector index files (assuming they are stored in backend/)
+backend/vector_index_*/
+
+# General cache folders
+.cache/
+*.log
+*.db
+*.sqlite3
+
+# Environment files
+.env
+.env.*
+
+# Node modules and build files (React frontend)
+frontend/my-react/node_modules/
+frontend/my-react/build/
+frontend/my-react/.env
+
+# IDE/project specific
+.vscode/
+.idea/
+*.swp
+
+# OS specific
+.DS_Store
+Thumbs.db
