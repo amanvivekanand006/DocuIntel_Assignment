@@ -18,3 +18,4 @@ sentence-transformers
 unstructured_inference
 transformers
 pillow
+pdf2image
