@@ -12,3 +12,6 @@ langchain
 faiss-cpu
 huggingface-hub
 pdfminer.six
+pi-heif
+python-docx
+sentence-transformers
