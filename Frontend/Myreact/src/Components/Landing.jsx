@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react'; 
 import './Css/Landing.css';
-import docImage from './Images/Laptop.jpg'; 
+// import docImage from './Images/Laptop.jpg'; 
 
 const LandingPage = () => {
   const videoRef = useRef(); 

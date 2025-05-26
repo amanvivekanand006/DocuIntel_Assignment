@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from 'react';
-import axios from 'axios';
 import './Css/Filechat.css';
 import { ToastContainer, toast } from 'react-toastify';
 import axiosInstance from '../api/axiosInstance';

@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import axios from 'axios';
 import './Css/Login.css';
 import { ToastContainer, toast } from 'react-toastify';
 import axiosInstance from '../api/axiosInstance';
