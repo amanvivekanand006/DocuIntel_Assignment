@@ -19,3 +19,4 @@ unstructured_inference
 transformers
 pillow
 pdf2image
+langchain-community
